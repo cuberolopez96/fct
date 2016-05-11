@@ -1,5 +1,5 @@
 <?php
-    class Empresas{
+    class Empresa{
         
         private $nombre="";
         private $email="";
@@ -46,7 +46,7 @@
             
         }
         public function getTelefono(){
-            return $this->direction;
+            return $this->telefono;
         }
         public function getLocalizacion(){
             return $this->localizacion;
